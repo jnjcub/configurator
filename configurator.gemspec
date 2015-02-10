@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Configurator::VERSION
   spec.authors       = [" Jayan Jacob"]
   spec.email         = ["jayanjacob@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Tiny gem to make nested configuration easy.}
+  spec.description   = %q{Tiny gem to make nested configuration easy.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec"
 end
