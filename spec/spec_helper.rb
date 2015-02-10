@@ -1,0 +1,2 @@
+require 'configurator'
+require 'rspec'
