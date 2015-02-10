@@ -20,10 +20,12 @@ Or install it yourself as:
 
 ## Usage
 
+```ruby
    Application.config do |c|
-    c.my_config = Configurator.new
+    c.my_config = Configurator::Config.new
     c.my_config.special_setting = true
    end
+```
 
 ## Contributing
 
